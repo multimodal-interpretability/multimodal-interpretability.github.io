@@ -22,13 +22,23 @@
 
         .project-link {
             font-weight: bold;
-            color: #FF8C00;
+            color: #f2a23f;
             margin-right: 10px;
         }
 
         .project-link:hover {
-            color: #FFA500;
+            color: #f7af57;
         }
+        
+        .news-link {
+            font-weight: bold;
+            color: #6b91cf;
+        }
+
+        .news-link:hover {
+            color: ##87b3fa;
+        }
+        
     </style>
 </head>
 
@@ -63,7 +73,7 @@
         <h3>Recent Publications</h3>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-2">
-                <img src="static/images/MAIA_schematic.png" alt="MAIA" class="img-fluid">
+                <img src="static/images/MAIA_schematic.png" alt="MAIA" class="project-image">
             </div>
             <div class="col-md-10">
                 <h4>A Multimodal Automated Interpretability Agent</h4>
@@ -76,46 +86,46 @@
         </div>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-2">
-                <img src="static/images/FIND_gif.gif" alt="FIND" class="img-fluid">
+                <img src="static/images/FIND_gif.gif" alt="FIND" class="project-image">
             </div>
             <div class="col-md-10">
                 <h4>FIND: A Function Description Benchmark for Evaluating Interpretability Methods</h4>
                 <p>Sarah Schwettmann*, Tamar Rott Shaham*, Joanna Materzynska, Neil Chowdhury, Shuang Li, Jacob Andreas, David Bau, Antonio Torralba. NeurIPS 2023.</p>
                 <p>An interactive dataset of functions resembling subcomputations inside trained neural networks, for validating and comparing open-ended labeling tools, and a new method that uses Automated Interpretability Agents to explain other systems.</p>
-                <p><a href="https://arxiv.org/abs/2309.03886" target="_blank" class="project-link">Paper</a> <a href="https://arxiv.org/abs/2309.03886" target="_blank" class="project-link">Dataset</a> <a href="https://arxiv.org/abs/2309.03886" target="_blank" class="project-link">Project Page</a> <a href="https://news.mit.edu/2024/ai-agents-help-explain-other-ai-systems-0103" target="_blank" class="project-link">News</a></p>
+                <p><a href="https://arxiv.org/abs/2309.03886" target="_blank" class="project-link">Paper</a> <a href="https://github.com/multimodal-interpretability/FIND" target="_blank" class="project-link">Dataset</a> <a href="https://multimodal-interpretability.csail.mit.edu/FIND-benchmark/" target="_blank" class="project-link">Project Page</a> <a href="https://news.mit.edu/2024/ai-agents-help-explain-other-ai-systems-0103" target="_blank" class="project-link">News</a></p>
             </div>
         </div>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-2">
-                <img src="static/images/car_circuit_inception.png" alt="Visual Circuits" class="img-fluid">
+                <img src="static/images/car_circuit_inception.png" alt="Visual Circuits" class="project-image">
             </div>
             <div class="col-md-10">
                 <h4>Automatic Discovery of Visual Circuits</h4>
                 <p>Achyuta Rajaram*, Neil Chowdhury*, Antonio Torralba, Jacob Andreas, Sarah Schwettmann. NeurIPS ATTRIB 2023. </p>
                 <p>We introduce a new technique for automatically discovering subgraphs of vision models that detect concepts.</p>
-                <p>[Paper]</p>
+                <p><a href="https://openreview.net/pdf/0fafa04c83370f95d637dc509e78e7d77ea3c9da.pdf" target="_blank" class="project-link">Paper</a></p>
             </div>
         </div>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-2">
-                <img src="static/images/mmns_teaser.png" alt="Multimodal neurons" class="img-fluid">
+                <img src="static/images/mmns_teaser.png" alt="Multimodal neurons" class="project-image">
             </div>
             <div class="col-md-10">
                 <h4>Multimodal Neurons in Pretrained Text-Only Transformers</h4>
                 <p>Sarah Schwettmann*, Neil Chowdhury*, Samuel Klein, David Bau, Antonio Torralba. ICCV CVCL 2023 (Oral).</p>
                 <p>We find multimodal neurons in a transformer pretrained only on language. When image representations are aligned to the language model, these neurons activate on specific image features and inject related text into the model's next token prediction.</p>
-                <p>[Paper] [Project Page]</p>
+                <p><a href="https://arxiv.org/abs/2308.01544" target="_blank" class="project-link">Paper</a> <a href="https://multimodal-interpretability.csail.mit.edu/Multimodal-Neurons-in-Text-Only-Transformers/" target="_blank" class="project-link">Project Page</a></p>
             </div>
         </div>
         <div class="row" style="padding-top: 20px;">
             <div class="col-md-2">
-                <img src="static/images/MILAN.png" alt="MILAN" class="img-fluid">
+                <img src="static/images/MILAN.png" alt="MILAN" class="project-image">
             </div>
             <div class="col-md-10">
                 <h4>Natural Language Descriptions of Deep Visual Features</h4>
                 <p>Evan Hernandez, Sarah Schwettmann, David Bau, Teona Bagashvili, Antonio Torralba, Jacob Andreas. ICLR 2022 (Oral).</p>
                 <p>We introduce a procedure that automatically labels neurons in deep networks with open-ended, compositional, natural language descriptions of their function.</p>
-                <p>[Paper] [Project page] [News]</p>
+                <p><a href="https://arxiv.org/abs/2201.11114" target="_blank" class="project-link">Paper</a> <a href="https://milan.csail.mit.edu/" target="_blank" class="project-link">Project Page</a> <a href="https://news.mit.edu/2022/explainable-machine-learning-0127" target="_blank" class="project-link">News</a></p>
             </div>
         </div>
     </div>
@@ -123,9 +133,9 @@
     <div class="container" id="News" style="padding-top: 120px; margin-top: -80px;">
         <h3>Recent News</h3>
         <ul>
-            <li>March 2024: Achyuta wins first place nationally and a $250,000 prize at <a href="https://www.societyforscience.org/regeneron-sts/2024-sts-winners/" target="_blank" class="project-link">Regeneron STS</a> for his project on Automatic Discovery of Visual Circuits, done as part of our MIT CSAIL AI Interpretability Internship Program.</li>
-            <li>January 2024: Neil joins the <a href="https://openai.com/safety/preparedness" target="_blank" class="project-link">Preparedness Team</a> at OpenAI.</li>
-            <li>January 2024: Automated Interpretability Agents and FIND are featured in <a href="https://news.mit.edu/2024/ai-agents-help-explain-other-ai-systems-0103" target="_blank" class="project-link">MIT News</a>.</li>
+            <li>March 2024: Achyuta wins first place nationally and a $250,000 prize at <a href="https://www.societyforscience.org/regeneron-sts/2024-sts-winners/" target="_blank" class="news-link">Regeneron STS</a> for his project on Automatic Discovery of Visual Circuits, done as part of our MIT CSAIL AI Interpretability Internship Program.</li>
+            <li>January 2024: Neil joins the <a href="https://openai.com/safety/preparedness" target="_blank" class="news-link">Preparedness Team</a> at OpenAI.</li>
+            <li>January 2024: Automated Interpretability Agents and FIND are featured in <a href="https://news.mit.edu/2024/ai-agents-help-explain-other-ai-systems-0103" target="_blank" class="news-link">MIT News</a>.</li>
             <li>December 2023: Sarah and Tamar present <a href="https://arxiv.org/abs/2309.03886" target="_blank" class="project-link">FIND</a> at NeurIPS in New Orleans.</li>
         </ul>
     </div>
