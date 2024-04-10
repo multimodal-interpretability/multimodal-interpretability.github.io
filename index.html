@@ -14,7 +14,7 @@
     <script src="js/scroll.js"></script>
 </head>
 
-<title>Multimodal Interpretability projects in MIT CSAIL</title>
+<title>MIT CSAIL</title>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -23,6 +23,9 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#Publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#News">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Contact">Contact</a>
@@ -39,24 +42,69 @@
     </div>
 
     <div class="container" id="Publications" style="padding-top: 80px; margin-top: -80px;">
-        <h3>Publications</h3>
+        <h3>Recent Publications</h3>
         <div class="row">
             <div class="col-md-2">
-                <img src="static/images/FIND.png" alt="FIND" class="img-fluid">
+                <img src="static/images/MAIA_schematic.png" alt="MAIA" class="img-fluid">
             </div>
             <div class="col-md-10">
-                <p>FIND</p>
+                <h4>A Multimodal Automated Interpretability Agent</h4>
+                <p>Tamar Rott Shaham*, Sarah Schwettmann*, Franklin Wang, Achyuta Rajaram, Evan Hernandez, Jacob Andreas, Antonio Torralba. Arxiv Preprint 2024.</p>
+                <p>Aan agent that autonomously conducts experiments on other systems to explain their behavior, by composing interpretability subroutines into Python programs.</p>
+                <p>[Paper] [Project Page]</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2">
-                <img src="static/images/MAIA.png" alt="MAIA" class="img-fluid">
+                <img src="static/images/FIND_gif.gif" alt="FIND" class="img-fluid">
             </div>
             <div class="col-md-10">
-                <p>MAIA</p>
+                <h4>FIND: A Function Description Benchmark for Evaluating Interpretability Methods</h4>
+                <p>Sarah Schwettmann*, Tamar Rott Shaham*, Joanna Materzynska, Neil Chowdhury, Shuang Li, Jacob Andreas, David Bau, Antonio Torralba. NeurIPS 2023.</p>
+                <p>An interactive dataset of functions resembling subcomputations inside trained neural networks, for validating and comparing open-ended labeling tools, and a new method that uses Automated Interpretability Agents to explain other systems.</p>
+                <p>[Paper] [Dataset] [Project Page] [News]</p>
             </div>
         </div>
-        <!-- Add more rows for additional publications -->
+        <div class="row">
+            <div class="col-md-2">
+                <img src="static/images/car_circuit_inception.ong" alt="Visual Circuits" class="img-fluid">
+            </div>
+            <div class="col-md-10">
+                <h4>Automatic Discovery of Visual Circuits</h4>
+                <p>Achyuta Rajaram*, Neil Chowdhury, Antonio Torralba, Jacob Andreas, Sarah Schwettmann. NeurIPS ATTRIB 2023. </p>
+                <p>We introduce a new technique for automatically discovering subgraphs of vision models that detect concepts.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="static/images/mmns_teaser.png" alt="Multimodal neurons" class="img-fluid">
+            </div>
+            <div class="col-md-10">
+                <h4>Multimodal Neurons in Pretrained Text-Only Transformers</h4>
+                <p>Sarah Schwettmann*, Neil Chowdhury*, Samuel Klein, David Bau, Antonio Torralba. ICCV CVCL 2023 (Oral).</p>
+                <p>We find multimodal neurons in a transformer pretrained only on language. When image representations are aligned to the language model, these neurons activate on specific image features and inject related text into the model's next token prediction.</p>
+                <p>[Paper] [Project Page]</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="static/images/MILAN.png" alt="MILAN" class="img-fluid">
+            </div>
+            <div class="col-md-10">
+                <h4>Natural Language Descriptions of Deep Features</h4>
+                <p>Evan Hernandez, Sarah Schwettmann, David Bau, Teona Bagashvili, Antonio Torralba, Jacob Andreas. ICLR 2022 (Oral).</p>
+                <p>We introduce a procedure that automatically labels neurons in deep networks with open-ended, compositional, natural language descriptions of their function.</p>
+                <p>[Paper] [Project page] [News]</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="News" style="padding-top: 80px; margin-top: -80px;">
+        <h3>Recent News</h3>
+        <ul>
+            <li>Achyuta Rajaram wins first place nationally and a $250,000 prize at Regeneron STS for his project on Automatic Discovery of Visual Circuits.</li>
+            <li>FIND is accepted for publication at NeurIPS 2023.</li>
+        </ul>
     </div>
 
     <div class="container" id="Contact" style="padding-top: 80px; margin-top: -80px;">
